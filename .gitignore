@@ -1,4 +1,4 @@
-﻿\ATTPOCWebApp\bin\*
-\ATTPOCWebApp\obj\*
-\ATTWebAppAPI\bin\*
-\ATTWebAppAPI\obj\*
+ATTPOCWebApp/bin/
+ATTPOCWebApp/obj/
+ATTWebAppAPI/bin/
+ATTWebAppAPI/obj/

@@ -1,0 +1,116 @@
+﻿{
+  "HistoryData": [
+    {
+      "Name": "NSFL",
+      "ProgressHeight": 500,
+      "CompleteBtnTopMargin": 485,
+      "History": [
+        {
+          "Step": "Select Area Of Interest",
+          "StartDate": "06/13/2017 10:30:22",
+          "EndDate": "06/13/2017 10:31:02",
+          "Duration": "1 min",
+          "ProgressCircle": 0,
+          "SubStep": ""
+        },
+        {
+          "Step": "Select Node(s)",
+          "StartDate": "06/13/2017 10:31:22",
+          "EndDate": "06/13/2017 10:32:25",
+          "Duration": "1 min",
+          "ProgressCircle": 0,
+          "SubStep": [
+            {
+              "Step": "Get Atolls",
+              "StartDate": "06/13/2017 10:31:22",
+              "EndDate": "",
+              "Duration": "",
+              "ProgressCircle": 0,
+              "SubStep": ""
+            }
+          ]
+        },
+        {
+          "Step": "Select Hub(s)",
+          "StartDate": "06/13/2017 10:35:42",
+          "EndDate": "",
+          "Duration": "",
+          "ProgressCircle": 0,
+          "SubStep": ""
+        },
+        {
+          "Step": "RF Approval",
+          "StartDate": "06/13/2017 11:37:00",
+          "EndDate": "",
+          "Duration": "",
+          "ProgressCircle": 0,
+          "SubStep": ""
+        },
+        {
+          "Step": "Complete",
+          "StartDate": "06/13/2017 11:37:00",
+          "EndDate": "",
+          "Duration": "",
+          "ProgressCircle": 0,
+          "SubStep": ""
+        }
+      ]
+    },
+    {
+      "Name": "CSFL",
+      "ProgressHeight": 500,
+      "CompleteBtnTopMargin": 485,
+      "History": [
+        {
+          "Step": "Select Area Of Interest",
+          "StartDate": "06/13/2017 10:30:22",
+          "EndDate": "",
+          "Duration": "",
+          "ProgressCircle": 0,
+          "SubStep": ""
+        },
+        {
+          "Step": "Select Node(s)",
+          "StartDate": "06/13/2017 10:31:22",
+          "EndDate": "06/13/2017 10:32:25",
+          "Duration": "1 min",
+          "ProgressCircle": 0,
+          "SubStep": [
+            {
+              "Step": "Get Atolls",
+              "StartDate": "06/13/2017 10:31:22",
+              "EndDate": "06/13/2017 10:32:25",
+              "Duration": "1 min",
+              "ProgressCircle": 0,
+              "SubStep": ""
+            }
+          ]
+        },
+        {
+          "Step": "Select Hub(s)",
+          "StartDate": "06/13/2017 10:35:42",
+          "EndDate": "06/13/2017 11:37:45",
+          "Duration": "2 min",
+          "ProgressCircle": 0,
+          "SubStep": ""
+        },
+        {
+          "Step": "RF Approval",
+          "StartDate": "06/13/2017 11:37:00",
+          "EndDate": "",
+          "Duration": "",
+          "ProgressCircle": 1,
+          "SubStep": ""
+        },
+        {
+          "Step": "Complete",
+          "StartDate": "06/13/2017 11:37:00",
+          "EndDate": "",
+          "Duration": "",
+          "ProgressCircle": 0,
+          "SubStep": ""
+        }
+      ]
+    }
+  ]
+}

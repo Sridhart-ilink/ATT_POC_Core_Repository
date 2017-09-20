@@ -1,0 +1,1378 @@
+@font-face {
+  font-family: 'modernpics';
+  src: url('../fonts/modernpics.eot');
+  src: url('../fonts/modernpics.eot#iefix') format('embedded-opentype'),
+       url('../fonts/modernpics.woff') format('woff'),
+       url('../fonts/modernpics.ttf') format('truetype'),
+       url('../fonts/modernpics.svg#modernpics') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html, body {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color:#fafafa;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.relative {
+    position: relative;
+}
+
+label {
+    font-weight: 600;
+}
+
+.help-block {
+    margin-bottom: 15px;
+}
+
+#mainWrapper {
+    height: calc(100% - 30px);
+    /*margin: 15px 0 0;*/
+    width: 100%;
+}
+.navbar-brand > img {
+    display:inline-block;
+    margin-top: -5px;
+}
+.navbar-brand {
+    float:none;
+}
+.att-heading{
+    margin-left: 30px;
+}
+.view {
+    width: 100%;
+    height: 50px;
+}
+
+    .view .content {
+        height: calc(100% - 50px);
+        overflow-x: hidden;
+    }
+
+#map {
+    width: auto;
+    height: calc(100% - 270px);
+    position: relative;
+    background-color: lightblue;
+}
+#map-2 {
+    width: auto;
+    position: relative;
+    background-color: lightblue;
+}
+.mrg15-R {
+    margin-right:15px;
+}
+#search {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    left: 0px;
+    width : 100%;
+    
+}
+.arcgisSearch .searchGroup .searchInput {
+        border:none;
+        outline:none;
+        width:91%;
+   }
+.arcgisSearch .searchBtn {
+    border:none;
+    outline:none;
+}
+.arcgisSearch .searchExpandContainer {
+    width:88%;
+}
+.arcgisSearch .searchInputGroup {
+    width:100%;
+}
+.arcgisSearch .searchGroup
+{
+    width:100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 1px -2px rgba(0,0,0,0.5);
+    background-color:#fff
+}
+.maximized-map #map {
+    height: 100%;
+}
+
+.maximized-map .view {
+    display: none;
+}
+
+.header-block {
+    position: relative;
+}
+
+    .header-block h4 {
+        margin-right: 10px;
+        color: darkcyan;
+    }
+
+.btn-form {
+    margin-bottom: 15px;
+}
+
+#btnExpandMap {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 10px;
+    opacity: .6;
+    z-index: 1;
+}
+
+    #btnExpandMap:hover {
+        opacity: 1;
+    }
+
+#vertices {
+    min-width: 450px;
+}
+
+.dijitReset.dijitMenuItemIconCell {
+    padding: 0 5px 0 5px;
+}
+
+.dijitReset.dijitMenuItemLabel {
+    padding: 5px 5px 5px 0;
+}
+
+.dijitMenuItem:hover,
+.dijitMenuItemSelected {
+    background-color: #444;
+    color: white;
+}
+
+/* DivTable.com */
+.divTable {
+    display: table;
+    width: 100%;
+}
+
+.divTableRow {
+    display: table-row;
+}
+
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+}
+
+.divTableCell, .divTableHead {
+    border: 0px solid #999999;
+    display: table-cell;
+    padding: 3px 10px;
+}
+
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold;
+}
+
+.divTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+}
+
+.divTableBody {
+    display: table-row-group;
+}
+.errorSpan{
+    color : red !important;
+}
+.sarfDetails {
+    margin-left : 15px;
+}
+.sarfclick{
+    margin-left: -25px;
+}
+.sarfDetails label {
+        font-size: 12px;
+        font-family : "Roboto", Regular;
+        color:#454545;
+    }
+
+.blueBtn{
+    box-shadow: 1px 2px 1px 0px rgba(0,0,0,0.25);
+    border: 1px solid;
+    border-color:#0879c0;
+    background: #0878c0; /* Old browsers */
+background: -moz-linear-gradient(top, #0878c0 0%, #056ab0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #0878c0 0%,#056ab0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #0878c0 0%,#056ab0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0878c0', endColorstr='#056ab0',GradientType=0 ); /* IE6-9 */
+}
+.whiteBtn{
+    font-family: "Roboto", Light !important;
+    font-weight:100 !important;
+    color:#0876be;
+     box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1);
+    border: 1px solid;
+    border-color:#d2d2d2;
+    background: #fbfcfc; /* Old browsers */
+background: -moz-linear-gradient(top, #fbfcfc 0%, #f3f2f3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fbfcfc 0%,#f3f2f3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fbfcfc 0%,#f3f2f3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfcfc', endColorstr='#f3f2f3',GradientType=0 ); /* IE6-9 */
+}
+    .whiteBtn:hover {
+        border-color:#0879c0;
+    background: #0878c0; /* Old browsers */
+background: -moz-linear-gradient(top, #0878c0 0%, #056ab0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #0878c0 0%,#056ab0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #0878c0 0%,#056ab0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0878c0', endColorstr='#056ab0',GradientType=0 ); /* IE6-9 */
+    }
+    .sarfDetails p span, .sarfDetails input {
+        font-size: 12px;
+        font-family : "Roboto", Light;
+        color:#7f7f7f;
+    }
+
+.borderBottom {
+    border-bottom: 1px solid #eee;
+}
+
+.btn {
+    font-family : "Roboto", Regular;
+    min-width: 110px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.pageLink a{
+        margin: 10px 0;
+    display: inline-block;
+}
+.tabDiv {
+position:relative;
+margin-top : -20px
+}
+.commentingDiv {
+    position:absolute;
+    display: block;
+    background-color: #ffffff;
+    margin-top: 50px;
+    height : 665px !important;
+    overflow-y : scroll;
+    z-index : 99;
+}
+.toggleArrow {
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #4682d6;
+    box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 99;
+    font-size: larger;
+    color: #FFFFFF;
+}
+    .toggleArrow img {
+        display:inline-block;
+    }
+
+    .toggleComment {
+    padding:3px 10px;
+    cursor:pointer;
+    text-align:center;
+    background-color:rgba(255,255,255,1);
+    box-shadow:0px 1px 2px 1px rgba(0,0,0,0.5);
+    position:absolute;
+    left:-13px;
+    top:50px;
+    z-index:99;
+}
+    .toggleComment img {
+        display:inline-block;
+    }
+@media (max-width: 450px) {
+    .view .content {
+        height: calc(100% - 85px);
+    }
+}
+
+/*Mockup Styles*/
+.sidenav {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover, .offcanvas a:focus {
+            color: #f1f1f1;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+#map {
+    transition: margin-left .5s;
+    padding: 16px;
+    width:100%;
+    height: 640px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+.linkcolor {
+    color :#454545;
+    font-size: 10pt;
+}
+
+.editLink {
+    /*margin-top: 10px;*/
+    margin-bottom: 5px;
+}
+
+.divider {
+    margin-top: 30px;
+}
+
+.pad-lr-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*default sarf draw button*/
+
+.btnDraw {
+        background: #266f3b !important;
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 5px;   
+    color: #fff;
+    font-size: 12pt;
+    width: 180px;
+    font-weight: 100;
+    padding: 8px 10px 7px 10px;
+    margin-bottom: 4px;
+    text-decoration: none;
+    border-color: transparent !important;
+    margin-right: 25px;
+}
+.shapeIcon{
+    display: block;
+    font-size: 18pt;
+    font-weight: bolder;
+    padding-right: 10px;
+    color : #600000;
+}
+.satelliteMode{
+    display: block;
+    font-size: 18pt;
+    font-weight: bolder;
+    padding-right: 10px;
+    color : #f4f4f4;
+}
+.shapeIcon:hover{
+    color : #600000;
+    font-size: 22pt;
+}
+.satelliteMode:hover{
+    color : #f4f4f4;
+    font-size: 22pt;
+}
+.addSarfBtn{
+    z-index: 999;
+    margin-top: 530px;
+    margin-left: 35px;
+    position: absolute;
+}
+.dialogStyle {
+    width: 250px; 
+    height: 100px; 
+    background-color: white;
+    color: #454545;
+    border-radius: 5px;
+    padding: 20px;
+}
+.dialogNodeStyle {
+    width: 250px; 
+    height: 200px; 
+    background-color: white;
+    color: #454545;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.dijitTextBox input {
+    border: solid silver 2px;
+    border-radius: 2px;
+    padding: 3px 0 0 3px;
+}
+
+.dialogSaveBtn {
+    margin-top: 10px;
+    width: 55px;
+    color: black;
+    background-color:red;
+}
+
+#statusDiv {
+    padding-bottom: 10px;
+}
+
+.scrollbar
+{
+	background: #F5F5F5;
+	
+}
+.force-overflow
+{
+	min-height: 450px;
+}
+/*
+ *  STYLE 2
+ */
+
+#style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 8px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 5px;
+    height : 5px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 8px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: grey;
+}
+
+#postBtn{
+    margin-top: 5px;
+}
+.chatHead {
+
+}
+.commentInfo{
+    border-top : 1px dotted #ccc;
+    padding:15px 0px;
+}
+.att-heading{
+    font-family:"Roboto", Bold;
+}
+.chatHead div.pull-left {
+    border:1px solid #ccc;
+    background-color:#eee;
+    width:30px;
+    padding:5px;
+    border-radius:4px;
+}
+.chatHead div.pull-right {
+    width:80%;
+ }
+.chatLabel h3 {
+    margin:0px;
+    font-size:14px;
+    font-weight:600;
+    font-family:"Roboto", Bold;
+    text-transform:uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color : #454545;
+}
+.chatLabel p{
+    color :#005991;
+
+}
+.chatBody p {
+    font-size: 12px;
+    color: #454545;
+    text-align: justify;
+    text-indent: 10px;
+    color : #7f7f7f;
+}
+.chatBody input::placeholder {
+    font-style:italic;
+}
+.form-control{
+    border-radius : 0px;
+}
+.rotateArrow{
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+.profile{
+   margin-top: 10px;
+}   
+.profileInfo{
+    font-weight:500;
+    font-family:"Roboto", Light;
+    font-size : 12pt;
+    padding-right: 10px;
+}
+.profileIcon{
+    font-size : 20pt;
+}
+.menuIcon{
+    font-size : 20pt;
+    margin : 5px 25px;
+ }
+.ctrlOption div
+ {
+    display:inline-block;
+    padding:10px;
+    cursor:pointer;
+    text-align:center;
+}
+    .ctrlOption div span {
+        display:block;
+    }
+    .ctrlOption div:hover span {
+        text-decoration:underline;
+    }
+.dijitButtonNode {border:0px solid gray;margin:0;line-height:normal;vertical-align: middle; #vertical-align: autotext-align:centerwhite-space: nowrap;}
+.cardHead div.pull-left{
+    width: 215px;
+    padding: 5px;
+    border-radius: 4px;
+}
+.cardLabel h3 {
+    margin:0px;
+    font-size:14px;
+    font-weight:600;
+    font-family:"Roboto", Bold;
+    text-transform:uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color : #454545;
+}
+.cardLabel p{
+    color :#005991;
+
+}
+.cardBody{
+    margin-left: 15px;
+}
+.popupBody{
+    margin-left: 15px;
+}
+.cardHead{
+    margin-left: 15px;
+}
+.cardBody h3 {
+    margin:0px;
+    font-size:15px;
+    font-weight:600;
+    font-family:"Roboto", Bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color :#005991;
+    padding-bottom : 5px;
+}
+
+.cardHead h3 {
+    margin:0px;
+    font-size:15px;
+    font-weight:600;
+    font-family:"Roboto", Bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color :#454545;
+    padding: 25px 0;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+}
+.cardTail{
+        margin-left: 0px;
+    /* border-top: 1px dotted #ccc; */
+    border-bottom: 1px dotted #ccc;
+    /* padding: 10px 0; */
+    padding-bottom: 20px;
+    width: 350px;
+}
+.tabMenu>li.active>a.active, .tabMenu>li.active>a:focus{
+    color: #fff !important;
+    background-color: #0568ae !important;
+}
+#statusLabel{
+    margin:-15px;
+    font-size:14pt;
+    font-weight:600;
+    font-family:"Roboto", Light;
+}
+.cardInfo button{
+    margin-left : -35px;
+    padding-bottom: 0px;
+    font-size:15px;
+}
+.cardSpan{
+    margin-left : 0;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family : "Roboto", Light;
+    color:#7f7f7f;
+}
+.popupFont{
+    font-size: 11px;
+}
+.popupSpan{
+    margin-left : 0;
+    margin-top: 2px;
+    font-size: 11px;
+    color:#333333;
+}
+.ruler{
+    border-top: 1px dotted #ccc;
+    /* padding: 15px 0px; */
+    padding: 0px 0px 0px;
+    margin-top: 8px;
+}
+.wfbtnSet{
+    margin-top: 15px;
+    margin-left : 0px;
+    /*padding:15px 0px;*/
+    padding: 8px 0px 8px;
+    cursor : pointer !important;
+}
+.topBorder{
+    border-top : 1px dotted #ccc;
+}
+.wfbtnSet .blueBtn{
+    font-size: 12px;
+}
+.wfbtnSet .blueBtn:hover{
+    font-size: 12px;
+}
+.detailsSlider{
+    height: 700px !important;
+}
+.themeBlue{
+    color: #248ace;
+}
+.cardInfo{
+    border-bottom : 1px dotted #ccc;
+    /*padding:15px 0px;*/
+    padding:0px 0px 8px;
+}
+.popupInfo{
+    border-bottom : 1px dotted #ccc;
+    /*padding:15px 0px;*/
+    padding:3px 0px 8px;
+}
+.slidingDiv{
+    height: 602px;
+    overflow-y: auto;
+    overflow-x : hidden;
+    margin-top: -21px;
+    /*width : auto;*/
+}
+.navTabs-ul{
+    border-bottom: 1px solid #fff !important;
+}
+.pageLink a
+{
+    margin-top: 10px;
+    font-size: 12pt;
+}
+.cardView{
+    width: 100%;
+}
+.pager{
+    margin-top: 10px;
+    height: 25px;
+}
+#backIcon{
+    border: 2px solid #ccc;
+    padding: 8px;
+    border-radius: 90px;
+    text-align: center;
+    text-indent: -3px;
+    width: 35px;
+    /* line-height: 20px; */
+    font-size: 15px;
+    margin-left : 0px;
+    color: maroon;
+    height: 36px;
+}
+#frontIcon{
+    border: 2px solid #ccc;
+    padding: 8px;
+    border-radius: 90px;
+    text-align: center;
+    text-indent: 2px;
+    width: 35px;
+    /* line-height: 20px; */
+    font-size: 15px;
+    margin-left : -3px;
+    color: maroon;
+    height: 36px;
+}
+#backIcon:hover, #frontIcon:hover{
+    border: 2px solid maroon;
+}
+.pagingDisabled, .pagingDisabled:hover{
+    border: 2px solid #ccc !important;
+    color: #ccc !important;
+}
+.pageTxt{
+    width: 40px;
+}
+.pageLength{
+    padding-left: 3px;
+}
+.fontClass {
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 400;
+}
+[class^="icon-signal"]:before, [class*=" icon-signal"]:before {
+    font-family: "modernpics";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    /* font-size: 120%; */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.icon-signal:before { content: '\e770'; }
+.ngClass{
+    font-size: 10px;
+    font-weight: 700;
+    color: black;
+}
+/*Css for timeline chart*/
+.timelineArea{
+    margin-top: -5px;
+    margin-left: 175px;
+}
+
+.progressFull {
+      height: 600px;
+    width: 5px;
+    background-color:rgba(0,122,62,1);
+}
+.progressCSFL {
+    height: 600px;
+    width: 5px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007a3e+0,007a3e+50,ce2d2d+51,ce2d2d+68,888888+69,888888+100 */
+background: rgb(0,122,62); /* Old browsers */
+background: -moz-linear-gradient(to bottom, rgba(0,122,62,1) 0%,
+rgba(0,122,62,1) 37%,
+rgba(206,45,45,1) 38%,
+rgba(206,45,45,1) 59%,
+rgba(136,136,136,1) 60%, 
+rgba(136,136,136,1), 62%,
+rgba(234,234,234,1), 62%,
+rgba(234,234,234,1), 65%, 
+rgba(136,136,136,1), 65%, 
+rgba(136,136,136,1), 68%, 
+rgba(234,234,234,1), 68%, 
+rgba(234,234,234,1), 71%,
+rgba(136,136,136,1), 71%, 
+rgba(136,136,136,1), 74%,
+rgba(234,234,234,1), 74%, 
+rgba(234,234,234,1), 77%,
+rgba(136,136,136,1), 77%, 
+rgba(136,136,136,1), 80%,
+rgba(234,234,234,1), 80%, 
+rgba(234,234,234,1), 83%,
+rgba(136,136,136,1), 83%, 
+rgba(136,136,136,1), 86%,
+rgba(234,234,234,1), 86%, 
+rgba(234,234,234,1), 89%,
+rgba(136,136,136,1), 89%, 
+rgba(136,136,136,1), 91%,
+rgba(234,234,234,1), 91%, 
+rgba(234,234,234,1), 94%,
+rgba(136,136,136,1), 94%, 
+rgba(136,136,136,1), 97%,
+rgba(234,234,234,1), 97%,
+rgba(234,234,234,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(to bottom, rgba(0,122,62,1) 0%,
+rgba(0,122,62,1) 37%,
+rgba(206,45,45,1) 38%,
+rgba(206,45,45,1) 59%,
+rgba(136,136,136,1) 60%, 
+rgba(136,136,136,1), 62%,
+rgba(234,234,234,1), 62%,
+rgba(234,234,234,1), 65%, 
+rgba(136,136,136,1), 65%, 
+rgba(136,136,136,1), 68%, 
+rgba(234,234,234,1), 68%, 
+rgba(234,234,234,1), 71%,
+rgba(136,136,136,1), 71%, 
+rgba(136,136,136,1), 74%,
+rgba(234,234,234,1), 74%, 
+rgba(234,234,234,1), 77%,
+rgba(136,136,136,1), 77%, 
+rgba(136,136,136,1), 80%,
+rgba(234,234,234,1), 80%, 
+rgba(234,234,234,1), 83%,
+rgba(136,136,136,1), 83%, 
+rgba(136,136,136,1), 86%,
+rgba(234,234,234,1), 86%, 
+rgba(234,234,234,1), 89%,
+rgba(136,136,136,1), 89%, 
+rgba(136,136,136,1), 91%,
+rgba(234,234,234,1), 91%, 
+rgba(234,234,234,1), 94%,
+rgba(136,136,136,1), 94%, 
+rgba(136,136,136,1), 97%,
+rgba(234,234,234,1), 97%,
+rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,122,62,1) 0%,
+rgba(0,122,62,1) 37%,
+rgba(0,122,62,1) 38%,
+rgba(0,122,62,1) 59%,
+rgba(206,45,45,1) 60%, 
+rgba(206,45,45,1), 62%,
+rgba(206,45,45,1), 62%,
+rgba(206,45,45,1), 65%, 
+rgba(206,45,45,1), 65%, 
+rgba(206,45,45,1), 68%, 
+rgba(206,45,45,1), 68%, 
+rgba(206,45,45,1), 71%,
+rgba(206,45,45,1), 71%, 
+rgba(206,45,45,1), 74%,
+rgba(234,234,234,1), 74%, 
+rgba(234,234,234,1), 77%,
+rgba(136,136,136,1), 77%, 
+rgba(136,136,136,1), 80%,
+rgba(234,234,234,1), 80%, 
+rgba(234,234,234,1), 83%,
+rgba(136,136,136,1), 83%, 
+rgba(136,136,136,1), 86%,
+rgba(234,234,234,1), 86%, 
+rgba(234,234,234,1), 89%,
+rgba(136,136,136,1), 89%, 
+rgba(136,136,136,1), 91%,
+rgba(234,234,234,1), 91%, 
+rgba(234,234,234,1), 94%,
+rgba(136,136,136,1), 94%, 
+rgba(136,136,136,1), 97%,
+rgba(234,234,234,1), 97%,
+rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007a3e', endColorstr='#888888',GradientType=0 ); /* IE6-9 */
+    border-radius: 4px;
+}
+.progressIPFL {
+    height: 500px;
+    width: 5px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007a3e+0,007a3e+50,ce2d2d+51,ce2d2d+68,888888+69,888888+100 */
+background: rgb(0,122,62); /* Old browsers */
+background: -moz-linear-gradient(to bottom, rgba(0,122,62,1) 0%,
+rgba(0,122,62,1) 37%,
+rgba(206,45,45,1) 38%,
+rgba(206,45,45,1) 59%,
+rgba(136,136,136,1) 60%, 
+rgba(136,136,136,1), 62%,
+rgba(234,234,234,1), 62%,
+rgba(234,234,234,1), 65%, 
+rgba(136,136,136,1), 65%, 
+rgba(136,136,136,1), 68%, 
+rgba(234,234,234,1), 68%, 
+rgba(234,234,234,1), 71%,
+rgba(136,136,136,1), 71%, 
+rgba(136,136,136,1), 74%,
+rgba(234,234,234,1), 74%, 
+rgba(234,234,234,1), 77%,
+rgba(136,136,136,1), 77%, 
+rgba(136,136,136,1), 80%,
+rgba(234,234,234,1), 80%, 
+rgba(234,234,234,1), 83%,
+rgba(136,136,136,1), 83%, 
+rgba(136,136,136,1), 86%,
+rgba(234,234,234,1), 86%, 
+rgba(234,234,234,1), 89%,
+rgba(136,136,136,1), 89%, 
+rgba(136,136,136,1), 91%,
+rgba(234,234,234,1), 91%, 
+rgba(234,234,234,1), 94%,
+rgba(136,136,136,1), 94%, 
+rgba(136,136,136,1), 97%,
+rgba(234,234,234,1), 97%,
+rgba(234,234,234,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(to bottom, rgba(0,122,62,1) 0%,
+rgba(0,122,62,1) 37%,
+rgba(206,45,45,1) 38%,
+rgba(206,45,45,1) 59%,
+rgba(136,136,136,1) 60%, 
+rgba(136,136,136,1), 62%,
+rgba(234,234,234,1), 62%,
+rgba(234,234,234,1), 65%, 
+rgba(136,136,136,1), 65%, 
+rgba(136,136,136,1), 68%, 
+rgba(234,234,234,1), 68%, 
+rgba(234,234,234,1), 71%,
+rgba(136,136,136,1), 71%, 
+rgba(136,136,136,1), 74%,
+rgba(234,234,234,1), 74%, 
+rgba(234,234,234,1), 77%,
+rgba(136,136,136,1), 77%, 
+rgba(136,136,136,1), 80%,
+rgba(234,234,234,1), 80%, 
+rgba(234,234,234,1), 83%,
+rgba(136,136,136,1), 83%, 
+rgba(136,136,136,1), 86%,
+rgba(234,234,234,1), 86%, 
+rgba(234,234,234,1), 89%,
+rgba(136,136,136,1), 89%, 
+rgba(136,136,136,1), 91%,
+rgba(234,234,234,1), 91%, 
+rgba(234,234,234,1), 94%,
+rgba(136,136,136,1), 94%, 
+rgba(136,136,136,1), 97%,
+rgba(234,234,234,1), 97%,
+rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,122,62,1) 0%,
+rgba(0,122,62,1) 37%,
+rgba(0,122,62,1) 38%,
+rgba(0,122,62,1) 55%,
+rgba(234,234,234,1) 2%,
+rgba(234,234,234,1) 1%,
+rgba(136,136,136,1) 60%, 
+rgba(136,136,136,1), 62%,
+rgba(234,234,234,1), 62%,
+rgba(234,234,234,1), 65%, 
+rgba(136,136,136,1), 65%, 
+rgba(136,136,136,1), 68%, 
+rgba(234,234,234,1), 68%, 
+rgba(234,234,234,1), 71%,
+rgba(136,136,136,1), 71%, 
+rgba(136,136,136,1), 74%,
+rgba(234,234,234,1), 74%, 
+rgba(234,234,234,1), 77%,
+rgba(136,136,136,1), 77%, 
+rgba(136,136,136,1), 80%,
+rgba(234,234,234,1), 80%, 
+rgba(234,234,234,1), 83%,
+rgba(136,136,136,1), 83%, 
+rgba(136,136,136,1), 86%,
+rgba(234,234,234,1), 86%, 
+rgba(234,234,234,1), 89%,
+rgba(136,136,136,1), 89%, 
+rgba(136,136,136,1), 91%,
+rgba(234,234,234,1), 91%, 
+rgba(234,234,234,1), 94%,
+rgba(136,136,136,1), 94%, 
+rgba(136,136,136,1), 97%,
+rgba(234,234,234,1), 97%,
+rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007a3e', endColorstr='#888888',GradientType=0 ); /* IE6-9 */
+    border-radius: 4px;
+}
+.progressRFFL {
+    height: 600px;
+    width: 5px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007a3e+0,007a3e+50,ce2d2d+51,ce2d2d+68,888888+69,888888+100 */
+background: rgb(0,122,62); /* Old browsers */
+background: -moz-linear-gradient(to bottom, rgba(0,122,62,1) 0%,
+rgba(0,122,62,1) 37%,
+rgba(206,45,45,1) 38%,
+rgba(206,45,45,1) 59%,
+rgba(136,136,136,1) 60%, 
+rgba(136,136,136,1), 62%,
+rgba(234,234,234,1), 62%,
+rgba(234,234,234,1), 65%, 
+rgba(136,136,136,1), 65%, 
+rgba(136,136,136,1), 68%, 
+rgba(234,234,234,1), 68%, 
+rgba(234,234,234,1), 71%,
+rgba(136,136,136,1), 71%, 
+rgba(136,136,136,1), 74%,
+rgba(234,234,234,1), 74%, 
+rgba(234,234,234,1), 77%,
+rgba(136,136,136,1), 77%, 
+rgba(136,136,136,1), 80%,
+rgba(234,234,234,1), 80%, 
+rgba(234,234,234,1), 83%,
+rgba(136,136,136,1), 83%, 
+rgba(136,136,136,1), 86%,
+rgba(234,234,234,1), 86%, 
+rgba(234,234,234,1), 89%,
+rgba(136,136,136,1), 89%, 
+rgba(136,136,136,1), 91%,
+rgba(234,234,234,1), 91%, 
+rgba(234,234,234,1), 94%,
+rgba(136,136,136,1), 94%, 
+rgba(136,136,136,1), 97%,
+rgba(234,234,234,1), 97%,
+rgba(234,234,234,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(to bottom, rgba(0,122,62,1) 0%,
+rgba(0,122,62,1) 37%,
+rgba(206,45,45,1) 38%,
+rgba(206,45,45,1) 59%,
+rgba(136,136,136,1) 60%, 
+rgba(136,136,136,1), 62%,
+rgba(234,234,234,1), 62%,
+rgba(234,234,234,1), 65%, 
+rgba(136,136,136,1), 65%, 
+rgba(136,136,136,1), 68%, 
+rgba(234,234,234,1), 68%, 
+rgba(234,234,234,1), 71%,
+rgba(136,136,136,1), 71%, 
+rgba(136,136,136,1), 74%,
+rgba(234,234,234,1), 74%, 
+rgba(234,234,234,1), 77%,
+rgba(136,136,136,1), 77%, 
+rgba(136,136,136,1), 80%,
+rgba(234,234,234,1), 80%, 
+rgba(234,234,234,1), 83%,
+rgba(136,136,136,1), 83%, 
+rgba(136,136,136,1), 86%,
+rgba(234,234,234,1), 86%, 
+rgba(234,234,234,1), 89%,
+rgba(136,136,136,1), 89%, 
+rgba(136,136,136,1), 91%,
+rgba(234,234,234,1), 91%, 
+rgba(234,234,234,1), 94%,
+rgba(136,136,136,1), 94%, 
+rgba(136,136,136,1), 97%,
+rgba(234,234,234,1), 97%,
+rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,122,62,1) 0%,
+rgba(0,122,62,1) 37%,
+rgba(0,122,62,1) 38%,
+rgba(0,122,62,1) 45%,
+rgba(206,45,45,1) 14%,
+rgba(206,45,45,1) 60%, 
+rgba(206,45,45,1), 62%,
+rgba(234,234,234,1), 62%,
+rgba(234,234,234,1), 65%, 
+rgba(136,136,136,1), 65%, 
+rgba(136,136,136,11), 68%, 
+rgba(234,234,234,1), 68%, 
+rgba(234,234,234,1), 71%,
+rgba(136,136,136,1), 71%, 
+rgba(136,136,136,1), 74%,
+rgba(234,234,234,1), 74%, 
+rgba(234,234,234,1), 77%,
+rgba(136,136,136,1), 77%, 
+rgba(136,136,136,1), 80%,
+rgba(234,234,234,1), 80%, 
+rgba(234,234,234,1), 83%,
+rgba(136,136,136,1), 83%, 
+rgba(136,136,136,1), 86%,
+rgba(234,234,234,1), 86%, 
+rgba(234,234,234,1), 89%,
+rgba(136,136,136,1), 89%, 
+rgba(136,136,136,1), 91%,
+rgba(234,234,234,1), 91%, 
+rgba(234,234,234,1), 94%,
+rgba(136,136,136,1), 94%, 
+rgba(136,136,136,1), 97%,
+rgba(234,234,234,1), 97%,
+rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007a3e', endColorstr='#888888',GradientType=0 ); /* IE6-9 */
+    border-radius: 4px;
+}
+
+.progress {
+    height: 600px;
+    width: 5px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007a3e+0,007a3e+50,ce2d2d+51,ce2d2d+68,888888+69,888888+100 */
+background: rgb(0,122,62); /* Old browsers */
+background: -moz-linear-gradient(to bottom, rgba(0,122,62,1) 0%,
+rgba(0,122,62,1) 37%,
+rgba(206,45,45,1) 38%,
+rgba(206,45,45,1) 59%,
+rgba(136,136,136,1) 60%, 
+rgba(136,136,136,1), 62%,
+rgba(234,234,234,1), 62%,
+rgba(234,234,234,1), 65%, 
+rgba(136,136,136,1), 65%, 
+rgba(136,136,136,1), 68%, 
+rgba(234,234,234,1), 68%, 
+rgba(234,234,234,1), 71%,
+rgba(136,136,136,1), 71%, 
+rgba(136,136,136,1), 74%,
+rgba(234,234,234,1), 74%, 
+rgba(234,234,234,1), 77%,
+rgba(136,136,136,1), 77%, 
+rgba(136,136,136,1), 80%,
+rgba(234,234,234,1), 80%, 
+rgba(234,234,234,1), 83%,
+rgba(136,136,136,1), 83%, 
+rgba(136,136,136,1), 86%,
+rgba(234,234,234,1), 86%, 
+rgba(234,234,234,1), 89%,
+rgba(136,136,136,1), 89%, 
+rgba(136,136,136,1), 91%,
+rgba(234,234,234,1), 91%, 
+rgba(234,234,234,1), 94%,
+rgba(136,136,136,1), 94%, 
+rgba(136,136,136,1), 97%,
+rgba(234,234,234,1), 97%,
+rgba(234,234,234,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(to bottom, rgba(0,122,62,1) 0%,
+rgba(0,122,62,1) 37%,
+rgba(206,45,45,1) 38%,
+rgba(206,45,45,1) 59%,
+rgba(136,136,136,1) 60%, 
+rgba(136,136,136,1), 62%,
+rgba(234,234,234,1), 62%,
+rgba(234,234,234,1), 65%, 
+rgba(136,136,136,1), 65%, 
+rgba(136,136,136,1), 68%, 
+rgba(234,234,234,1), 68%, 
+rgba(234,234,234,1), 71%,
+rgba(136,136,136,1), 71%, 
+rgba(136,136,136,1), 74%,
+rgba(234,234,234,1), 74%, 
+rgba(234,234,234,1), 77%,
+rgba(136,136,136,1), 77%, 
+rgba(136,136,136,1), 80%,
+rgba(234,234,234,1), 80%, 
+rgba(234,234,234,1), 83%,
+rgba(136,136,136,1), 83%, 
+rgba(136,136,136,1), 86%,
+rgba(234,234,234,1), 86%, 
+rgba(234,234,234,1), 89%,
+rgba(136,136,136,1), 89%, 
+rgba(136,136,136,1), 91%,
+rgba(234,234,234,1), 91%, 
+rgba(234,234,234,1), 94%,
+rgba(136,136,136,1), 94%, 
+rgba(136,136,136,1), 97%,
+rgba(234,234,234,1), 97%,
+rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,122,62,1) 0%,
+rgba(0,122,62,1) 17%,
+rgba(0,122,62,1) 31%,
+rgba(206,45,45,1) 20%,
+rgba(206,45,45,1) 46%,
+rgba(234,234,234,1), 10%,
+rgba(234,234,234,1), 10%, 
+rgba(136,136,136,1) 60%, 
+rgba(136,136,136,1), 62%,
+rgba(234,234,234,1), 62%,
+rgba(234,234,234,1), 65%, 
+rgba(136,136,136,1), 65%, 
+rgba(136,136,136,1), 68%, 
+rgba(234,234,234,1), 68%, 
+rgba(234,234,234,1), 71%,
+rgba(136,136,136,1), 71%, 
+rgba(136,136,136,1), 74%,
+rgba(234,234,234,1), 74%, 
+rgba(234,234,234,1), 77%,
+rgba(136,136,136,1), 77%, 
+rgba(136,136,136,1), 80%,
+rgba(234,234,234,1), 80%, 
+rgba(234,234,234,1), 83%,
+rgba(136,136,136,1), 83%, 
+rgba(136,136,136,1), 86%,
+rgba(234,234,234,1), 86%, 
+rgba(234,234,234,1), 89%,
+rgba(136,136,136,1), 89%, 
+rgba(136,136,136,1), 91%,
+rgba(234,234,234,1), 91%, 
+rgba(234,234,234,1), 94%,
+rgba(136,136,136,1), 94%, 
+rgba(136,136,136,1), 97%,
+rgba(234,234,234,1), 97%,
+rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007a3e', endColorstr='#888888',GradientType=0 ); /* IE6-9 */
+    border-radius: 4px;
+}
+.progressContent{
+    height: 400px;
+    margin-left: 0px;
+    margin-top : 0px;
+    width : 400px;
+    padding-top : 10px;
+}
+.progressContent .content{
+    height : 20%;
+    background-color: #eaeaea;
+    margin-top: 10px;
+}
+.contentAOI{
+    width : 75%;
+}
+.contentRFApproval{
+    width : 75%;
+}
+.contentRFApproval .rfApproval{
+    width : 100%;
+    height: 100%;
+}
+.highlightApproved{
+    background-color : #f3f3f3;
+    border-right : 4px solid rgba(0,122,62,1);
+}
+.highlightRejected{
+    background-color : #f3f3f3;
+    border-right : 4px solid #ce2d2d;
+}
+.highlightCompleted{
+    background-color : #f3f3f3;
+    border-right : 4px solid #888888;
+}
+.contentSelectNodes{
+    width : 150%;
+}
+.contentSelectNodes .identifyNodes{
+    width : 50%;
+    height: 100%;
+}
+.contentSelectNodes .getAtolls{
+    width : 50%;
+    height: 100%;
+}
+.contentSelectHubs{
+    width : 75%;
+}
+.contentComplete{
+    width : 75%;
+}
+.progressDot{
+    background-color: #007a3e;
+    border-radius: 4px;
+    width: 17px;
+    height: 15px;
+    border-radius: 50%;
+    margin-top: 4.5%;
+    margin-left: -11px;
+    position: absolute;
+}
+.progressCircle{
+    border: 3px solid #007a3e;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-top: 3.5%;
+    margin-left: -13px;
+    position: absolute;
+}
+.themeRed{
+    border: 3px solid #ce2d2d;
+    background-color: #ce2d2d;
+}
+.themeAsh{
+    border: 3px solid #888888;
+    background-color: #888888;
+}
+.draw-btn{
+    background: #266f3b !important;
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 5px;   
+    color: #fff;
+    font-size: 12pt;
+    width: 180px;
+    font-weight: 100;
+    padding: 8px 10px 7px 10px;
+    margin-bottom: 4px;
+    text-decoration: none;
+    border-color: transparent !important;
+    margin-right: 25px;
+}
+.createdBtn{
+    margin-top: 30px;
+    margin-left: 95px;
+}
+.completedBtn{
+    margin-top: 650px;
+    margin-left: 95px;
+    position: absolute;
+    
+}
+.completedBtn .draw-btn{
+    background-color:#888 !important;
+}
+.historyTab{
+    background-color:#e1e1e1;
+}
+.progressHead h3{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Roboto", Light;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #454545;
+    padding-left: 15px;
+    padding-top:10px;
+    border-top: 1px dotted #ccc;
+    /* border-bottom: 1px dotted #ccc; */
+}
+.progressHead span, .progressHead label{
+    padding-left: 15px;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Roboto", Light;
+    color: #454545;
+}

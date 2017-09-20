@@ -1,0 +1,394 @@
+﻿{
+  "HistoryData": [
+    {
+      "Name": "NSFL",
+      "ProgressHeight": 500,
+      "CompleteBtnTopMargin": 485,
+      "History": [
+        {
+          "Step": "Select Area Of Interest",
+          "StartDate": "06/13/2017 10:30:22",
+          "EndDate": "06/13/2017 10:32:22",
+          "Duration": "2 mins",
+          "ProgressCircle": 0,
+          "SubStep": ""
+        },
+		{
+          "Step": "Identify Node(s)",
+          "StartDate": "06/13/2017 10:30:22",
+          "EndDate": "06/13/2017 10:32:22",
+          "Duration": "2 mins",
+          "ProgressCircle": 0,
+          "SubStep": [
+            {
+              "Step": "Get Atoll Info",
+              "StartDate": "06/13/2017 10:31:22",
+              "EndDate": "06/13/2017 10:32:25",
+              "Duration": "1 min",
+              "ProgressCircle": 0,
+              "SubStep": ""
+            }
+          ]
+        },
+        {
+          "Step": "Select Node(s)",
+          "StartDate": "06/13/2017 10:31:22",
+          "EndDate": "",
+          "Duration": "1 min",
+          "ProgressCircle": 1,
+          "SubStep": ""
+        },
+        {
+          "Step": "Identify Hub(s)",
+          "StartDate": "",
+          "EndDate": "",
+          "Duration": "",
+          "ProgressCircle": 1,
+          "SubStep": [
+            {
+              "Step": "Get iPlan Info",
+              "StartDate": "06/13/2017 10:31:22",
+              "EndDate": "06/13/2017 10:32:25",
+              "Duration": "1 min",
+              "ProgressCircle": 0,
+              "SubStep": ""
+            }
+          ]
+        },
+        {
+          "Step": "RF Approval",
+          "StartDate": "",
+          "EndDate": "",
+          "Duration": "",
+          "ProgressCircle": 1,
+          "SubStep": ""
+        },
+		{
+          "Step": "Get Contact & Structure Info",
+          "StartDate": "",
+          "EndDate": "",
+          "Duration": "",
+          "ProgressCircle": 1,
+          "SubStep": ""
+        },
+        {
+          "Step": "Complete",
+          "StartDate": "",
+          "EndDate": "",
+          "Duration": "",
+          "ProgressCircle": 1,
+          "SubStep": ""
+        }
+      ]
+    },  
+    {
+        "Name": "FULL",
+        "ProgressHeight": 500,
+        "CompleteBtnTopMargin": 485,
+        "History": [
+            {
+                "Step": "Select Area Of Interest",
+                "StartDate": "06/13/2017 10:30:22",
+                "EndDate": "06/13/2017 10:32:22",
+                "Duration": "2 mins",
+                "ProgressCircle": 0,
+                "SubStep": ""
+            },
+            {
+                "Step": "Identify Node(s)",
+                "StartDate": "06/13/2017 10:30:22",
+                "EndDate": "06/13/2017 10:32:22",
+                "Duration": "2 mins",
+                "ProgressCircle": 0,
+                "SubStep": [
+                    {
+                        "Step": "Get Atoll Info",
+                        "StartDate": "06/13/2017 10:31:22",
+                        "EndDate": "06/13/2017 10:32:25",
+                        "Duration": "1 min",
+                        "ProgressCircle": 0,
+                        "SubStep": ""
+                    }
+                ]
+            },
+            {
+                "Step": "Identify Hub(s)",
+                "StartDate": "06/13/2017 10:31:22",
+                "EndDate": "06/13/2017 10:31:22",
+                "Duration": "1min",
+                "ProgressCircle": 0,
+                "SubStep": [
+                    {
+                        "Step": "Get iPlan Info",
+                        "StartDate": "06/13/2017 10:31:22",
+                        "EndDate": "06/13/2017 10:32:25",
+                        "Duration": "1 min",
+                        "ProgressCircle": 0,
+                        "SubStep": ""
+                    }
+                ]
+            },
+            {
+                "Step": "RF Approval",
+                "StartDate": "06/13/2017 10:31:22",
+                "EndDate": "06/13/2017 10:31:22",
+                "Duration": "2min",
+                "ProgressCircle": 0,
+                "SubStep": ""
+            },
+            {
+                "Step": "Get Contact & Structure Info",
+                "StartDate": "06/13/2017 10:31:22",
+                "EndDate": "06/13/2017 10:31:22",
+                "Duration": "1min",
+                "ProgressCircle": 0,
+                "SubStep": ""
+            },
+            {
+                "Step": "Complete",
+                "StartDate": "06/13/2017 10:31:22",
+                "EndDate": "06/13/2017 10:31:22",
+                "Duration": "2min",
+                "ProgressCircle": 0,
+                "SubStep": ""
+            }
+        ]
+    },
+    {
+        "Name": "CSFL",
+        "ProgressHeight": 500,
+        "CompleteBtnTopMargin": 485,
+        "History": [
+            {
+                "Step": "Select Area Of Interest",
+                "StartDate": "06/13/2017 10:30:22",
+                "EndDate": "06/13/2017 10:32:22",
+                "Duration": "2 mins",
+                "ProgressCircle": 0,
+                "SubStep": ""
+            },
+            {
+                "Step": "Identify Node(s)",
+                "StartDate": "06/13/2017 10:30:22",
+                "EndDate": "06/13/2017 10:32:22",
+                "Duration": "2 mins",
+                "ProgressCircle": 0,
+                "SubStep": [
+                    {
+                        "Step": "Get Atoll Info",
+                        "StartDate": "06/13/2017 10:31:22",
+                        "EndDate": "06/13/2017 10:32:25",
+                        "Duration": "1 min",
+                        "ProgressCircle": 0,
+                        "SubStep": ""
+                    }
+                ]
+            },
+            {
+                "Step": "Identify Hub(s)",
+                "StartDate": "06/13/2017 10:31:22",
+                "EndDate": "06/13/2017 10:31:22",
+                "Duration": "1min",
+                "ProgressCircle": 0,
+                "SubStep": [
+                    {
+                        "Step": "Get iPlan Info",
+                        "StartDate": "06/13/2017 10:31:22",
+                        "EndDate": "06/13/2017 10:32:25",
+                        "Duration": "1 min",
+                        "ProgressCircle": 0,
+                        "SubStep": ""
+                    }
+                ]
+            },
+            {
+                "Step": "RF Approval",
+                "StartDate": "06/13/2017 10:31:22",
+                "EndDate": "06/13/2017 10:31:22",
+                "Duration": "2min",
+                "ProgressCircle": 0,
+                "SubStep": ""
+            },
+            { 
+                "Step": "Get Contact & Structure Info",
+                "StartDate": "06/13/2017 10:31:22",
+                "EndDate": "06/13/2017 10:31:22",
+                "Duration": "1min",
+                "ProgressCircle": 0,
+                "SubStep": ""
+            },
+            {
+                "Step": "Update Contact Info",
+                "StartDate": "",
+                "EndDate": "",
+                "Duration": "",
+                "ProgressCircle": 1,
+                "SubStep": ""
+            },
+            {
+                "Step": "Complete",
+                "StartDate": "",
+                "EndDate": "",
+                "Duration": "",
+                "ProgressCircle": 1,
+                "SubStep": ""
+            }
+        ]
+    },
+    {
+        "Name": "RFFL",
+        "ProgressHeight": 500,
+        "CompleteBtnTopMargin": 485,
+        "History": [
+            {
+                "Step": "Select Area Of Interest",
+                "StartDate": "06/13/2017 10:30:22",
+                "EndDate": "06/13/2017 10:32:22",
+                "Duration": "2 mins",
+                "ProgressCircle": 0,
+                "SubStep": ""
+            },
+            {
+                "Step": "Identify Node(s)",
+                "StartDate": "06/13/2017 10:30:22",
+                "EndDate": "06/13/2017 10:32:22",
+                "Duration": "2 mins",
+                "ProgressCircle": 0,
+                "SubStep": [
+                    {
+                        "Step": "Get Atoll Info",
+                        "StartDate": "06/13/2017 10:31:22",
+                        "EndDate": "06/13/2017 10:32:25",
+                        "Duration": "1 min",
+                        "ProgressCircle": 0,
+                        "SubStep": ""
+                    }
+                ]
+            },
+            {
+                "Step": "Identify Hub(s)",
+                "StartDate": "06/13/2017 10:31:22",
+                "EndDate": "06/13/2017 10:31:22",
+                "Duration": "1min",
+                "ProgressCircle": 0,
+                "SubStep": [
+                    {
+                        "Step": "Get iPlan Info",
+                        "StartDate": "06/13/2017 10:31:22",
+                        "EndDate": "06/13/2017 10:32:25",
+                        "Duration": "1 min",
+                        "ProgressCircle": 0,
+                        "SubStep": ""
+                    }
+                ]
+            },
+            {
+                "Step": "RF Approval",
+                "StartDate": "06/13/2017 10:31:22",
+                "EndDate": "06/13/2017 10:31:22",
+                "Duration": "2min",
+                "ProgressCircle": 0,
+                "SubStep": ""
+            },
+            {
+                "Step": "Modify Nodes",
+                "StartDate": "",
+                "EndDate": "",
+                "Duration": "",
+                "ProgressCircle": 1,
+                "SubStep": ""
+            },
+            { 
+                "Step": "Get Contact & Structure Info",
+                "StartDate": "",
+                "EndDate": "",
+                "Duration": "",
+                "ProgressCircle": 1,
+                "SubStep": ""
+            },
+
+            {
+                "Step": "Complete",
+                "StartDate": "",
+                "EndDate": "",
+                "Duration": "",
+                "ProgressCircle": 1,
+                "SubStep": ""
+            }
+        ]
+    },
+    {
+        "Name": "IPFL",
+        "ProgressHeight": 500,
+        "CompleteBtnTopMargin": 485,
+        "History": [
+            {
+                "Step": "Select Area Of Interest",
+                "StartDate": "06/13/2017 10:30:22",
+                "EndDate": "06/13/2017 10:32:22",
+                "Duration": "2 mins",
+                "ProgressCircle": 0,
+                "SubStep": ""
+            },
+            {
+                "Step": "Identify Node(s)",
+                "StartDate": "06/13/2017 10:30:22",
+                "EndDate": "06/13/2017 10:32:22",
+                "Duration": "2 mins",
+                "ProgressCircle": 0,
+                "SubStep": [
+                    {
+                        "Step": "Get Atoll Info",
+                        "StartDate": "06/13/2017 10:31:22",
+                        "EndDate": "06/13/2017 10:32:25",
+                        "Duration": "1 min",
+                        "ProgressCircle": 0,
+                        "SubStep": ""
+                    }
+                ]
+            },
+            {
+                "Step": "Identify Hub(s)",
+                "StartDate": "06/13/2017 10:31:22",
+                "EndDate": "06/13/2017 10:31:22",
+                "Duration": "1min",
+                "ProgressCircle": 0,
+                "SubStep": [
+                    {
+                        "Step": "Get iPlan Info",
+                        "StartDate": "06/13/2017 10:31:22",
+                        "EndDate": "06/13/2017 10:32:25",
+                        "Duration": "1 min",
+                        "ProgressCircle": 0,
+                        "SubStep": ""
+                    }
+                ]
+            },
+            {
+                "Step": "RF Approval",
+                "StartDate": "06/13/2017 10:31:22",
+                "EndDate": "06/13/2017 10:31:22",
+                "Duration": "2min",
+                "ProgressCircle": 0,
+                "SubStep": ""
+            },
+            {
+                "Step": "Get Contact & Structure Info",
+                "StartDate": "",
+                "EndDate": "",
+                "Duration": "",
+                "ProgressCircle": 1,
+                "SubStep": ""
+            },
+            {
+                "Step": "Complete",
+                "StartDate": "",
+                "EndDate": "",
+                "Duration": "",
+                "ProgressCircle": 1,
+                "SubStep": ""
+            }
+        ]
+    }
+  ]
+}

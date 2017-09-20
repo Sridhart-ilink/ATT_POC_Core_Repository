@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\dijit\images\close-white.png" />
+    <None Include="wwwroot\dijit\images\close.gif" />
+    <None Include="wwwroot\dijit\images\popup.png" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\fonts\modernpics.eot" />
+    <None Include="wwwroot\fonts\modernpics.svg" />
+    <None Include="wwwroot\fonts\modernpics.ttf" />
+    <None Include="wwwroot\fonts\modernpics.woff" />
+    <None Include="wwwroot\Scripts\angular-1.3.15.min.js" />
+    <None Include="wwwroot\Scripts\bootstrap-3.3.4.min.js" />
+    <None Include="wwwroot\Scripts\common.js" />
+    <None Include="wwwroot\Scripts\globals.js" />
+    <None Include="wwwroot\Scripts\JavaScript1.js" />
+    <None Include="wwwroot\Scripts\jquery-1.11.3.min.js" />
+    <None Include="wwwroot\Scripts\jquery-1.4.1-vsdoc.js" />
+    <None Include="wwwroot\Scripts\jquery-1.4.1.js" />
+    <None Include="wwwroot\Scripts\jquery-1.4.1.min.js" />
+    <None Include="wwwroot\Scripts\sarfDetails.js" />
+    <None Include="wwwroot\Scripts\script.js" />
+    <None Include="wwwroot\Styles\bootstrap-3.3.4.min.css" />
+    <None Include="wwwroot\Styles\bootstrap.vertical-tabs.css" />
+    <None Include="wwwroot\Styles\bootstrap.vertical-tabs.min.css" />
+    <None Include="wwwroot\Styles\claro-3.14.css" />
+    <None Include="wwwroot\Styles\esri-3.14.css" />
+    <None Include="wwwroot\Styles\images\application-leave.png" />
+    <None Include="wwwroot\Styles\images\att-logo.png" />
+    <None Include="wwwroot\Styles\images\black-tower.png" />
+    <None Include="wwwroot\Styles\images\C-RAN Dashboard1.PNG" />
+    <None Include="wwwroot\Styles\images\ChatIcon.png" />
+    <None Include="wwwroot\Styles\images\circle.png" />
+    <None Include="wwwroot\Styles\images\double-arrow-right-red.png" />
+    <None Include="wwwroot\Styles\images\freehand.png" />
+    <None Include="wwwroot\Styles\images\images.png" />
+    <None Include="wwwroot\Styles\images\polygon.png" />
+    <None Include="wwwroot\Styles\images\white-tower.png" />
+    <None Include="wwwroot\Styles\Site.css" />
+    <None Include="wwwroot\Styles\style.css" />
+  </ItemGroup>
+
+</Project>
